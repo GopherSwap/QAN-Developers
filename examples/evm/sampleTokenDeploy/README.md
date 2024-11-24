@@ -13,7 +13,7 @@ Run Script:
 - configure, token/contract details For larger contracts use:
 `solc --optimize --optimize-runs 200 --evm-version paris --combined-json abi,bin ${contract.path}`, { encoding: "utf8" }
 - change desired EVM version in script and in dockerfile
-- run node index.js
+- run "docker build -t qan-deploy ."
 
 troubleshooting:
 
